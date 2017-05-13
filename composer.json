@@ -26,7 +26,7 @@
     "autoload": {
         "files": ["src/backup-service.php"],
         "psr-4": {
-            "nadejdin\\backupservice": "src/"
+            "globalmp\\yii2backup": "src/"
         }
     }
 }

@@ -1,0 +1,24 @@
+{
+    "name": "globalmp/yii2backup",
+    "type": "library",
+    "description": "Backup lib for Yii2",
+    "keywords": ["framework", "http", "mysql", "web service", "backup", "zip", "smtp"],
+    "homepage": "http://adtec.com.ua",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nadejdin Vyacheslav",
+            "email": "ldit@list.ru",
+            "homepage": "https://adtec.com.ua"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "files": ["src/backup-service.php"],
+        "psr-4": {
+            "nadejdin\\backupservice": "src/"
+        }
+    }
+}

@@ -17,6 +17,12 @@
         "php": ">=5.5.0",
         "yiisoft/yii2": ">=2.0.*@stable",
     },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/globalmp/yii2backup"
+        }
+    ],
     "autoload": {
         "files": ["src/backup-service.php"],
         "psr-4": {

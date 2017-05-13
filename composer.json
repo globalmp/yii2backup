@@ -12,9 +12,6 @@
             "homepage": "https://adtec.com.ua"
         }
     ],
-    "require": {
-        "php": ">=5.6"
-    },
     "autoload": {
         "files": ["src/backup-service.php"],
         "psr-4": {
